@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contactez Gestion Plus dès aujourd'hui par téléphone (+212 770 32 72 90) ou par mail (gestion.plus.2014@gmail.com) pour échanger sur vos projets de design ou vos besoins d'intégration d'Odoo ERP.">
+  <meta name="keywords" content="Contact Odoo, Demande devis ERP, Téléphone Gestion Plus, Email Odoo, Service client ERP">
+  <meta name="author" content="Gestion Plus">
+  <title>Contactez-nous & Demande de Devis — Gestion Plus</title>
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+  
+  <!-- Google Fonts - DM Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+  
+  <!-- Remix Icon CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+  
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/global.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+  <link rel="stylesheet" href="assets/css/ai-assistant.css">
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo-container" id="nav-logo-link">
+        <!-- Light Theme Logo -->
+        <img src="assets/images/logo-horizontal.png" alt="Gestion Plus Logo" class="logo-img logo-light-version">
+        <!-- Dark Theme Logo -->
+        <img src="assets/images/logo-horizontal-dark.png" alt="Gestion Plus Logo" class="logo-img logo-dark-version">
+      </a>
+      
+      <nav class="nav-menu" id="nav-menu">
+        <a href="index.html" class="nav-link" id="home-link">Accueil</a>
+        <a href="services.html" class="nav-link" id="services-link">Nos Services</a>
+        <a href="offres.html" class="nav-link" id="offres-link">Nos Offres</a>
+        <a href="contact.html" class="nav-link active" id="contact-link">Contact</a>
+        <div class="nav-actions">
+          <a href="contact.html?type=devis" class="btn btn-primary btn-sm" id="nav-cta-btn">Demander un devis</a>
+        </div>
+      </nav>
+      
+      <div class="nav-actions" style="margin-left: 0;">
+        <button class="theme-toggle" id="theme-toggle-btn" aria-label="Changer de thème" style="margin-right: 8px;">
+          <i class="ri-sun-line" id="theme-icon"></i>
+        </button>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Menu Mobile">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Banner -->
+  <section class="page-banner">
+    <div class="container">
+      <h1 class="page-banner-title">Contact & Devis</h1>
+      <div class="breadcrumbs">
+        <a href="index.html">Accueil</a>
+        <i class="ri-arrow-right-s-line"></i>
+        <span>Contact</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Grid Section -->
+  <section class="section" id="contact-details">
+    <div class="container contact-grid">
+      <!-- Left Panel: Contact Info -->
+      <div class="contact-info-panel reveal">
+        <span class="badge badge-primary">🌟 Gestion Plus</span>
+        <h2 class="section-title" style="margin-bottom: 12px;">Votre partenaire en transformation digitale</h2>
+        <p class="card-text" style="font-size: 1.1rem; margin-bottom: 30px;">
+          Nous accompagnons les entreprises dans leur croissance grâce à des solutions modernes, performantes et professionnelles. 
+          Contactez-nous dès aujourd’hui pour donner vie à votre projet.
+        </p>
+        
+        <div class="contact-info-cards-list">
+          <!-- Card 1: Phone -->
+          <div class="contact-card-info" style="margin-bottom: 20px;">
+            <div class="contact-card-icon"><i class="ri-phone-line"></i></div>
+            <div>
+              <h3 class="contact-card-title">Téléphone</h3>
+              <p class="contact-card-text">
+                <a href="tel:+212770327290" id="phone-contact-link">+212 770 32 72 90</a>
+              </p>
+              <small class="color-text-light" style="display: block; margin-top: 4px;">Disponible du Lundi au Vendredi, 10h - 18h</small>
+            </div>
+          </div>
+          
+          <!-- Card 2: Email -->
+          <div class="contact-card-info" style="margin-bottom: 20px;">
+            <div class="contact-card-icon"><i class="ri-mail-line"></i></div>
+            <div>
+              <h3 class="contact-card-title">E-mail</h3>
+              <p class="contact-card-text">
+                <a href="mailto:gestion.plus.2014@gmail.com" id="email-contact-link">gestion.plus.2014@gmail.com</a>
+              </p>
+              <small class="color-text-light" style="display: block; margin-top: 4px;">Réponse sous 48h ouvrées</small>
+            </div>
+          </div>
+          
+          <!-- Card 3: Location -->
+          <div class="contact-card-info">
+            <div class="contact-card-icon"><i class="ri-map-pin-line"></i></div>
+            <div>
+              <h3 class="contact-card-title">Zone d'intervention</h3>
+              <p class="contact-card-text">Maroc & France - International (Support à distance)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Right Panel: Contact/Quote Form -->
+      <div class="contact-form-panel reveal" style="transition-delay: 0.2s;">
+        <!-- Form Container -->
+        <form id="contact-form" action="https://api.web3forms.com/submit" method="POST" novalidate>
+          <input type="hidden" name="access_key" value="434f8ead-4614-4a0c-a8ac-d8b5e3193683">
+          
+          <div class="form-group">
+            <label for="form-name" class="form-label">Nom Complet *</label>
+            <input type="text" id="form-name" name="name" class="form-control" placeholder="Ex: Jean Dupont" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="form-email" class="form-label">Adresse E-mail *</label>
+            <input type="email" id="form-email" name="email" class="form-control" placeholder="Ex: jean.dupont@entreprise.com" required>
+          </div>
+          
+          <div class="form-row" style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+            <div class="form-group">
+              <label for="form-phone" class="form-label">Téléphone</label>
+              <input type="tel" id="form-phone" name="phone" class="form-control" placeholder="Ex: +212 600 000 000">
+            </div>
+            <div class="form-group">
+              <label for="form-company" class="form-label">Nom de l'entreprise</label>
+              <input type="text" id="form-company" name="company" class="form-control" placeholder="Ex: Mon PME S.A.">
+            </div>
+          </div>
+          
+           <div class="form-group">
+            <label for="form-subject" class="form-label">Objet de votre demande *</label>
+            <select id="form-subject" name="subject" class="form-control" required>
+              <option value="" disabled selected>-- Sélectionnez une option --</option>
+              <option value="devis">Demander un devis (Packs globaux)</option>
+              <option value="offre-carte">Offre à la carte (Prestation individuelle)</option>
+              <option value="odoo">Intégration / Configuration Odoo</option>
+              <option value="design">Design Graphique & Branding</option>
+              <option value="support">Maintenance & Support Technique</option>
+              <option value="autre">Autre question</option>
+            </select>
+          </div>
+          
+          <div class="form-group" id="formula-select-wrapper" style="display: none;">
+            <label for="form-formula" class="form-label">Formule ou Service souhaité</label>
+            <select id="form-formula" name="formula" class="form-control">
+              <option value="aucune" selected>Choisir une formule ou un service (Optionnel)</option>
+              
+              <optgroup label="Packs Globaux (Services)">
+                <option value="starter">Formule Starter (à partir de 399€)</option>
+                <option value="business">Formule Business (à partir de 649€)</option>
+                <option value="enterprise">Formule Enterprise (à partir de 899€)</option>
+              </optgroup>
+
+              <optgroup label="Design Graphique (À la carte)">
+                <option value="logo-simple">Création de Logo Simple (80 €)</option>
+                <option value="logo-premium">Création de Logo Premium (180 €)</option>
+                <option value="flyer">Conception de Flyer (60 €)</option>
+                <option value="carte-simple">Carte de Visite Simple face (40 €)</option>
+                <option value="carte-double">Carte de Visite Deux faces (60 €)</option>
+                <option value="carte-premium">Carte de Visite Premium (90 €)</option>
+              </optgroup>
+
+              <optgroup label="Développement Web (À la carte)">
+                <option value="web-simple">Site Web Simple (80 €)</option>
+                <option value="web-standard">Site Web Standard (250 €)</option>
+                <option value="web-premium">Site Web Design / Premium (600 €)</option>
+              </optgroup>
+
+              <optgroup label="Solutions Odoo ERP (À la carte)">
+                <option value="odoo-config">Installation + Configuration Odoo (400 €)</option>
+                <option value="odoo-dev">Développement Odoo (35€ - 50€ / h)</option>
+                <option value="odoo-maint">Maintenance & Support (50€ - 150€ / mois)</option>
+              </optgroup>
+
+              <optgroup label="Autre">
+                <option value="custom">Sur Mesure / Autre projet</option>
+              </optgroup>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="form-message" class="form-label">Détaillez votre projet / Message *</label>
+            <textarea id="form-message" name="message" class="form-control" placeholder="Décrivez vos besoins, délais ou questions en quelques lignes..." required></textarea>
+          </div>
+          
+          <button type="submit" class="btn btn-primary btn-lg" style="width: 100%; margin-top: 10px;" id="submit-form-btn">
+            <i class="ri-send-plane-line"></i> Envoyer ma demande
+          </button>
+        </form>
+        
+        <!-- Success Message Placeholder -->
+        <div class="form-success-message" id="form-success">
+          <div class="form-success-icon"><i class="ri-checkbox-circle-line"></i></div>
+          <h3 class="section-title" style="font-size: 1.8rem; margin-bottom: 12px; color: var(--color-green);">Merci pour votre message !</h3>
+          <p class="card-text" style="font-size: 1.05rem; margin-bottom: 24px;">
+            Votre demande a été envoyée avec succès à l'équipe de <strong>Gestion Plus</strong>. Nos experts reviendront vers vous très rapidement pour échanger sur votre projet.
+          </p>
+          <button type="button" class="btn btn-secondary" id="reset-success-btn">Envoyer une autre demande</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <!-- Light Theme Logo -->
+          <img src="assets/images/logo-vertical.png" alt="Gestion Plus" class="footer-logo logo-light-version">
+          <!-- Dark Theme Logo -->
+          <img src="assets/images/logo-vertical-dark.png" alt="Gestion Plus" class="footer-logo logo-dark-version">
+          <p class="footer-desc">Votre partenaire privilégié pour le design graphique d'entreprise et l'intégration de solutions ERP Odoo.</p>
+        </div>
+        
+        <div>
+          <h3 class="footer-title">Navigation</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="services.html">Nos Services</a></li>
+            <li><a href="offres.html">Nos Offres</a></li>
+            <li><a href="contact.html">Contact & Devis</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h3 class="footer-title">Services</h3>
+          <ul class="footer-links">
+            <li><a href="services.html#design">Design Graphique</a></li>
+            <li><a href="services.html#odoo">Solutions Odoo ERP</a></li>
+            <li><a href="services.html#pack-synergie">Pack Synergie</a></li>
+            <li><a href="services.html#pricing">Nos Formules</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h3 class="footer-title">Contactez-nous</h3>
+          <ul class="footer-contact-info">
+            <li>
+              <i class="ri-phone-fill"></i>
+              <span><a href="tel:+212770327290">+212 770 32 72 90</a></span>
+            </li>
+            <li>
+              <i class="ri-mail-fill"></i>
+              <span><a href="mailto:gestion.plus.2014@gmail.com">gestion.plus.2014@gmail.com</a></span>
+            </li>
+            <li>
+              <i class="ri-map-pin-2-fill"></i>
+              <span>Maroc & France</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p class="copyright">&copy; 2026 Gestion Plus. Tous droits réservés.</p>
+        <div class="footer-legal">
+          <a href="#">Mentions Légales</a>
+          <a href="#">Politique de Confidentialité</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Floating Widget -->
+  <div class="wa-chat-widget" id="wa-chat-widget">
+    <!-- WhatsApp Button -->
+    <button class="wa-chat-btn" id="wa-chat-btn" aria-label="Ouvrir WhatsApp">
+      <i class="ri-whatsapp-line"></i>
+      <span class="wa-chat-btn-tooltip">Discuter sur WhatsApp</span>
+    </button>
+    
+    <!-- WhatsApp Profile Container -->
+    <div class="wa-profile-container" id="wa-profile-container">
+      <div class="wa-profile-header">
+        <div class="wa-profile-header-info">
+          <div class="wa-profile-avatar">
+            <img src="assets/images/logo-vertical-dark.png" alt="Gestion Plus Avatar" class="wa-avatar-img">
+            <span class="wa-profile-status"></span>
+          </div>
+          <div>
+            <h4 class="wa-profile-name">Gestion Plus</h4>
+            <p class="wa-profile-title">En ligne (WhatsApp)</p>
+          </div>
+        </div>
+        <button class="wa-profile-close" id="wa-profile-close" aria-label="Fermer">
+          <i class="ri-close-line"></i>
+        </button>
+      </div>
+      <div class="wa-profile-body">
+        <div class="wa-bubble">
+          <p class="wa-bubble-greeting">Bonjour ! 👋</p>
+          <p class="wa-bubble-text">Comment puis-je vous aider ? Cliquez sur le bouton ci-dessous pour m'envoyer un message directement sur WhatsApp.</p>
+        </div>
+      </div>
+      <div class="wa-profile-footer">
+        <a href="https://wa.me/212770327290" target="_blank" rel="noopener" class="btn wa-start-btn">
+          <i class="ri-whatsapp-fill"></i> Démarrer la discussion
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- AI Assistant Chat Widget -->
+  <div class="ai-chat-widget" id="ai-chat-widget">
+    <!-- Chat Button -->
+    <button class="ai-chat-btn" id="ai-chat-btn" aria-label="Ouvrir l'assistance AI">
+      <i class="ri-sparkling-2-line"></i>
+      <span class="ai-chat-btn-tooltip">Assistance AI</span>
+    </button>
+    
+    <!-- Chat Container -->
+    <div class="ai-chat-container" id="ai-chat-container">
+      <div class="ai-chat-header">
+        <div class="ai-chat-header-info">
+          <div class="ai-chat-avatar">
+            <i class="ri-robot-2-line"></i>
+            <span class="ai-chat-status"></span>
+          </div>
+          <div>
+            <h4 class="ai-chat-name">Assistant Gestion Plus</h4>
+            <p class="ai-chat-title">AI Support en ligne</p>
+          </div>
+        </div>
+        <button class="ai-chat-close" id="ai-chat-close" aria-label="Fermer chat">
+          <i class="ri-close-line"></i>
+        </button>
+      </div>
+      
+      <!-- Chat Messages Body -->
+      <div class="ai-chat-messages" id="ai-chat-messages">
+        <div class="ai-message ai-message-received">
+          <div class="ai-message-bubble">
+            Bonjour ! Je suis l'assistant virtuel de <strong>Gestion Plus</strong>. 🚀<br><br>
+            Comment puis-je vous aider aujourd'hui ? Vous pouvez me poser des questions sur nos tarifs, nos packs Odoo ou nos offres à la carte.
+          </div>
+        </div>
+      </div>
+      
+      <!-- Chat Quick Replies -->
+      <div class="ai-chat-quick-replies" id="ai-chat-quick-replies">
+        <button class="ai-quick-reply" data-question="formules">Tarifs des Packs Odoo ⚙️</button>
+        <button class="ai-quick-reply" data-question="design">Tarifs Design à la carte 🎨</button>
+        <button class="ai-quick-reply" data-question="odoo">Comment intégrer Odoo ? 🚀</button>
+        <button class="ai-quick-reply" data-question="contact">Délais de réponse & Contact 📞</button>
+      </div>
+      
+      <!-- Chat Input Footer -->
+      <form class="ai-chat-input-area" id="ai-chat-input-form">
+        <input type="text" id="ai-chat-input" class="ai-chat-input-field" placeholder="Posez votre question ici..." required autocomplete="off">
+        <button type="submit" class="ai-chat-send-btn" aria-label="Envoyer">
+          <i class="ri-send-plane-2-fill"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/contact.js"></script>
+  <script src="assets/js/ai-assistant.js"></script>
+</body>
+</html>

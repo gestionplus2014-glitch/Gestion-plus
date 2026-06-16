@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Gestion Plus est spécialisé dans les solutions digitales et la gestion d'entreprise avec Odoo ERP. Création graphique, développement web, maintenance et intégration sur mesure.">
+  <meta name="keywords" content="Odoo ERP, Transformation Digitale, Création graphique, Développement web, Gestion Plus, Maroc, France">
+  <meta name="author" content="Gestion Plus">
+  <title>Gestion Plus — Solutions de Gestion Efficaces & ERP Odoo</title>
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+  
+  <!-- Google Fonts - DM Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+  
+  <!-- Remix Icon CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+  
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/global.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+  <link rel="stylesheet" href="assets/css/ai-assistant.css">
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo-container" id="nav-logo-link">
+        <!-- Light Theme Logo -->
+        <img src="assets/images/logo-horizontal.png" alt="Gestion Plus Logo" class="logo-img logo-light-version">
+        <!-- Dark Theme Logo -->
+        <img src="assets/images/logo-horizontal-dark.png" alt="Gestion Plus Logo" class="logo-img logo-dark-version">
+      </a>
+      
+      <nav class="nav-menu" id="nav-menu">
+        <a href="index.html" class="nav-link active" id="home-link">Accueil</a>
+        <a href="services.html" class="nav-link" id="services-link">Nos Services</a>
+        <a href="offres.html" class="nav-link" id="offres-link">Nos Offres</a>
+        <a href="contact.html" class="nav-link" id="contact-link">Contact</a>
+        <div class="nav-actions">
+          <a href="contact.html?type=devis" class="btn btn-primary btn-sm" id="nav-cta-btn">Demander un devis</a>
+        </div>
+      </nav>
+      
+      <div class="nav-actions" style="margin-left: 0;">
+        <button class="theme-toggle" id="theme-toggle-btn" aria-label="Changer de thème" style="margin-right: 8px;">
+          <i class="ri-sun-line" id="theme-icon"></i>
+        </button>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Menu Mobile">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content reveal">
+        <span class="badge badge-primary">🚀 Transformation Digitale</span>
+        <h1 class="hero-title">Gestion Plus — <br><span>Solutions de Gestion Efficaces</span></h1>
+        <p class="hero-subtitle">
+          Spécialiste dans les solutions digitales et la gestion d’entreprise avec <strong>Odoo ERP</strong>. 
+          Nous accompagnons les entreprises dans leur transformation numérique grâce à des services professionnels et modernes adaptés à chaque activité.
+        </p>
+        <div class="hero-cta">
+          <a href="contact.html?type=devis" class="btn btn-primary btn-lg" id="hero-devis-btn">
+            <i class="ri-file-list-3-line"></i> Demander un devis
+          </a>
+          <a href="services.html" class="btn btn-secondary btn-lg" id="hero-services-btn">
+            Découvrir nos services
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nos Services Overview -->
+  <section class="section section-alt" id="services-preview">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Notre Expertise</span>
+        <h2 class="section-title">Nos Domaines d'Accompagnement</h2>
+        <p class="section-desc">Des solutions numériques de bout en bout pour propulser votre performance.</p>
+      </div>
+      
+      <div class="services-home-grid">
+        <!-- Service 1: Design -->
+        <div class="card reveal">
+          <div class="card-icon"><i class="ri-palette-line"></i></div>
+          <h3 class="card-title">Création Graphique & Design</h3>
+          <p class="card-text">Nous façonnons votre identité visuelle complète : logos, chartes graphiques, cartes de visite et flyers professionnels pour capter vos clients.</p>
+        </div>
+        
+        <!-- Service 2: Web Dev -->
+        <div class="card reveal" style="transition-delay: 0.1s;">
+          <div class="card-icon"><i class="ri-global-line"></i></div>
+          <h3 class="card-title">Développement Web</h3>
+          <p class="card-text">Création de sites web vitrines et marchands modernes, optimisés pour la vitesse, le responsive design et le référencement naturel (SEO).</p>
+        </div>
+        
+        <!-- Service 3: Odoo Deployment -->
+        <div class="card reveal" style="transition-delay: 0.2s;">
+          <div class="card-icon"><i class="ri-settings-5-line"></i></div>
+          <h3 class="card-title">Installation & Configuration Odoo</h3>
+          <p class="card-text">Mise en place de votre ERP Odoo sur serveur Cloud ou local, configuration des modules métiers et sécurisation complète de vos données.</p>
+        </div>
+        
+        <!-- Service 4: Odoo Maintenance -->
+        <div class="card reveal" style="transition-delay: 0.3s;">
+          <div class="card-icon"><i class="ri-tools-line"></i></div>
+          <h3 class="card-title">Maintenance & Support Technique</h3>
+          <p class="card-text">Surveillance active, sauvegardes automatisées, correctifs réguliers de sécurité et support réactif pour garantir la stabilité de votre système.</p>
+        </div>
+        
+        <!-- Service 5: Custom Odoo -->
+        <div class="card reveal" style="transition-delay: 0.4s;">
+          <div class="card-icon"><i class="ri-code-s-slash-line"></i></div>
+          <h3 class="card-title">Développement Odoo Personnalisé</h3>
+          <p class="card-text">Développement de fonctionnalités spécifiques et personnalisation avancée des modules CRM, Ventes, Facturation, RH et Inventaire.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Les Avantages Section -->
+  <section class="section" id="avantages">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Pourquoi nous ?</span>
+        <h2 class="section-title">Les Avantages Gestion Plus</h2>
+        <p class="section-desc">Une synergie parfaite entre créativité et technologie au service de votre croissance.</p>
+      </div>
+      
+      <div class="advantages-grid">
+        <!-- Advantage 1 -->
+        <div class="card advantage-card reveal">
+          <div class="advantage-icon-wrapper"><i class="ri-user-star-line"></i></div>
+          <h3 class="card-title">Interlocuteur Unique</h3>
+          <p class="card-text">Plus besoin de courir après une agence de communication d'un côté et une société informatique de l'autre. Chez Gestion Plus, nous gérons l'intégralité de vos projets de communication et de gestion interne.</p>
+        </div>
+        
+        <!-- Advantage 2 -->
+        <div class="card advantage-card reveal" style="transition-delay: 0.15s;">
+          <div class="advantage-icon-wrapper"><i class="ri-equalizer-line"></i></div>
+          <h3 class="card-title">Solutions Sur Mesure</h3>
+          <p class="card-text">Que vous soyez une startup dynamique ou une PME bien établie, nos solutions Odoo et nos designs graphiques s'adaptent avec précision aux spécificités et aux exigences de votre activité.</p>
+        </div>
+        
+        <!-- Advantage 3 -->
+        <div class="card advantage-card reveal" style="transition-delay: 0.3s;">
+          <div class="advantage-icon-wrapper"><i class="ri-flashlight-line"></i></div>
+          <h3 class="card-title">Réactivité & Support</h3>
+          <p class="card-text">Un imprévu ou un bug sur votre serveur Odoo ? Notre équipe d'assistance technique intervient dans les plus brefs délais pour résoudre le dysfonctionnement et maintenir la continuité de votre activité.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pourquoi Nous Choisir & Focus -->
+  <section class="section section-alt" id="why-choose-us">
+    <div class="container why-grid">
+      <div class="why-content reveal">
+        <span class="section-subtitle">Notre Promesse</span>
+        <h2 class="section-title">Pourquoi choisir Gestion Plus ?</h2>
+        <p class="card-text" style="margin-bottom: 30px;">
+          Nous fusionnons le design haut de gamme et l'ingénierie logicielle pour créer une structure d'entreprise connectée, solide et évolutive.
+        </p>
+        
+        <div class="why-list">
+          <div class="why-item"><i class="ri-checkbox-circle-fill"></i> <span>Expertise Odoo ERP</span></div>
+          <div class="why-item"><i class="ri-checkbox-circle-fill"></i> <span>Solutions sur mesure</span></div>
+          <div class="why-item"><i class="ri-checkbox-circle-fill"></i> <span>Support technique rapide</span></div>
+          <div class="why-item"><i class="ri-checkbox-circle-fill"></i> <span>Prix très compétitifs</span></div>
+          <div class="why-item"><i class="ri-checkbox-circle-fill"></i> <span>Design moderne & pro</span></div>
+          <div class="why-item"><i class="ri-checkbox-circle-fill"></i> <span>Maintenance continue</span></div>
+        </div>
+      </div>
+      
+      <div class="why-features-cards reveal" style="transition-delay: 0.2s;">
+        <!-- Feature 1 -->
+        <div class="card why-feat-card">
+          <div class="why-feat-icon"><i class="ri-lightbulb-line"></i></div>
+          <div>
+            <h3 class="why-feat-title">Expertise polyvalente</h3>
+            <p class="card-text">Une seule agence de confiance pour superviser votre image de marque visuelle externe et vos flux opérationnels internes.</p>
+          </div>
+        </div>
+        
+        <!-- Feature 2 -->
+        <div class="card why-feat-card">
+          <div class="why-feat-icon"><i class="ri-focus-3-line"></i></div>
+          <div>
+            <h3 class="why-feat-title">Solutions personnalisées</h3>
+            <p class="card-text">Pas de formules génériques rigides. Nos modules et designs sont taillés sur mesure selon la taille et les défis de votre projet.</p>
+          </div>
+        </div>
+        
+        <!-- Feature 3 -->
+        <div class="card why-feat-card">
+          <div class="why-feat-icon"><i class="ri-hammer-line"></i></div>
+          <div>
+            <h3 class="why-feat-title">Accompagnement dédié</h3>
+            <p class="card-text">Une équipe de spécialistes à vos côtés, disponible et prête à intervenir rapidement au moindre incident ou besoin d'évolution.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA Banner -->
+  <section class="section">
+    <div class="container reveal">
+      <div class="cta-banner">
+        <h2 class="cta-banner-title">📞 Prêt à transformer votre entreprise ?</h2>
+        <p class="cta-banner-text">Contactez-nous dès aujourd’hui pour échanger sur vos projets de design ou vos besoins d’intégration d'Odoo ERP.</p>
+        <div class="cta-banner-buttons">
+          <a href="contact.html?type=devis" class="btn btn-secondary btn-lg" id="cta-devis-btn">
+            <i class="ri-file-text-line"></i> Demander un devis
+          </a>
+          <a href="contact.html" class="btn btn-accent btn-lg" id="cta-contact-btn">
+            <i class="ri-mail-send-line"></i> Contactez-nous
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <!-- Light Theme Logo -->
+          <img src="assets/images/logo-vertical.png" alt="Gestion Plus" class="footer-logo logo-light-version">
+          <!-- Dark Theme Logo -->
+          <img src="assets/images/logo-vertical-dark.png" alt="Gestion Plus" class="footer-logo logo-dark-version">
+          <p class="footer-desc">Votre partenaire privilégié pour le design graphique d'entreprise et l'intégration de solutions ERP Odoo.</p>
+        </div>
+        
+        <div>
+          <h3 class="footer-title">Navigation</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="services.html">Nos Services</a></li>
+            <li><a href="offres.html">Nos Offres</a></li>
+            <li><a href="contact.html">Contact & Devis</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h3 class="footer-title">Services</h3>
+          <ul class="footer-links">
+            <li><a href="services.html#design">Design Graphique</a></li>
+            <li><a href="services.html#odoo">Solutions Odoo ERP</a></li>
+            <li><a href="services.html#pack-synergie">Pack Synergie</a></li>
+            <li><a href="services.html#pricing">Nos Formules</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h3 class="footer-title">Contactez-nous</h3>
+          <ul class="footer-contact-info">
+            <li>
+              <i class="ri-phone-fill"></i>
+              <span><a href="tel:+212770327290">+212 770 32 72 90</a></span>
+            </li>
+            <li>
+              <i class="ri-mail-fill"></i>
+              <span><a href="mailto:gestion.plus.2014@gmail.com">gestion.plus.2014@gmail.com</a></span>
+            </li>
+            <li>
+              <i class="ri-map-pin-2-fill"></i>
+              <span>Maroc & France</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p class="copyright">&copy; 2026 Gestion Plus. Tous droits réservés.</p>
+        <div class="footer-legal">
+          <a href="#">Mentions Légales</a>
+          <a href="#">Politique de Confidentialité</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Floating Widget -->
+  <div class="wa-chat-widget" id="wa-chat-widget">
+    <!-- WhatsApp Button -->
+    <button class="wa-chat-btn" id="wa-chat-btn" aria-label="Ouvrir WhatsApp">
+      <i class="ri-whatsapp-line"></i>
+      <span class="wa-chat-btn-tooltip">Discuter sur WhatsApp</span>
+    </button>
+    
+    <!-- WhatsApp Profile Container -->
+    <div class="wa-profile-container" id="wa-profile-container">
+      <div class="wa-profile-header">
+        <div class="wa-profile-header-info">
+          <div class="wa-profile-avatar">
+            <img src="assets/images/logo-vertical-dark.png" alt="Gestion Plus Avatar" class="wa-avatar-img">
+            <span class="wa-profile-status"></span>
+          </div>
+          <div>
+            <h4 class="wa-profile-name">Gestion Plus</h4>
+            <p class="wa-profile-title">En ligne (WhatsApp)</p>
+          </div>
+        </div>
+        <button class="wa-profile-close" id="wa-profile-close" aria-label="Fermer">
+          <i class="ri-close-line"></i>
+        </button>
+      </div>
+      <div class="wa-profile-body">
+        <div class="wa-bubble">
+          <p class="wa-bubble-greeting">Bonjour ! 👋</p>
+          <p class="wa-bubble-text">Comment puis-je vous aider ? Cliquez sur le bouton ci-dessous pour m'envoyer un message directement sur WhatsApp.</p>
+        </div>
+      </div>
+      <div class="wa-profile-footer">
+        <a href="https://wa.me/212770327290" target="_blank" rel="noopener" class="btn wa-start-btn">
+          <i class="ri-whatsapp-fill"></i> Démarrer la discussion
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- AI Assistant Chat Widget -->
+  <div class="ai-chat-widget" id="ai-chat-widget">
+    <!-- Chat Button -->
+    <button class="ai-chat-btn" id="ai-chat-btn" aria-label="Ouvrir l'assistance AI">
+      <i class="ri-sparkling-2-line"></i>
+      <span class="ai-chat-btn-tooltip">Assistance AI</span>
+    </button>
+    
+    <!-- Chat Container -->
+    <div class="ai-chat-container" id="ai-chat-container">
+      <div class="ai-chat-header">
+        <div class="ai-chat-header-info">
+          <div class="ai-chat-avatar">
+            <i class="ri-robot-2-line"></i>
+            <span class="ai-chat-status"></span>
+          </div>
+          <div>
+            <h4 class="ai-chat-name">Assistant Gestion Plus</h4>
+            <p class="ai-chat-title">AI Support en ligne</p>
+          </div>
+        </div>
+        <button class="ai-chat-close" id="ai-chat-close" aria-label="Fermer chat">
+          <i class="ri-close-line"></i>
+        </button>
+      </div>
+      
+      <!-- Chat Messages Body -->
+      <div class="ai-chat-messages" id="ai-chat-messages">
+        <div class="ai-message ai-message-received">
+          <div class="ai-message-bubble">
+            Bonjour ! Je suis l'assistant virtuel de <strong>Gestion Plus</strong>. 🚀<br><br>
+            Comment puis-je vous aider aujourd'hui ? Vous pouvez me poser des questions sur nos tarifs, nos packs Odoo ou nos offres à la carte.
+          </div>
+        </div>
+      </div>
+      
+      <!-- Chat Quick Replies -->
+      <div class="ai-chat-quick-replies" id="ai-chat-quick-replies">
+        <button class="ai-quick-reply" data-question="formules">Tarifs des Packs Odoo ⚙️</button>
+        <button class="ai-quick-reply" data-question="design">Tarifs Design à la carte 🎨</button>
+        <button class="ai-quick-reply" data-question="odoo">Comment intégrer Odoo ? 🚀</button>
+        <button class="ai-quick-reply" data-question="contact">Délais de réponse & Contact 📞</button>
+      </div>
+      
+      <!-- Chat Input Footer -->
+      <form class="ai-chat-input-area" id="ai-chat-input-form">
+        <input type="text" id="ai-chat-input" class="ai-chat-input-field" placeholder="Posez votre question ici..." required autocomplete="off">
+        <button type="submit" class="ai-chat-send-btn" aria-label="Envoyer">
+          <i class="ri-send-plane-2-fill"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/ai-assistant.js"></script>
+</body>
+</html>
