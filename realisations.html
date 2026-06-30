@@ -3,8 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Mentions légales du site Gestion Plus. Identité de l'entreprise, coordonnées de l'éditeur et de l'hébergeur.">
-  <title>Mentions Légales — Gestion Plus</title>
+  <meta name="description" content="Découvrez le portfolio des réalisations de Gestion Plus : projets de création graphique, design, sites web vitrines et e-commerce, et intégration ERP Odoo.">
+  <meta name="keywords" content="Portfolio Odoo, Réalisations design, Créations logos, Exemples site web, Projets Odoo ERP">
+  <meta name="author" content="Gestion Plus">
+  <title>Nos Réalisations — Gestion Plus</title>
   <link rel="icon" type="image/png" href="assets/images/favicon.png">
   
   <!-- Google Fonts - DM Sans -->
@@ -38,7 +40,7 @@
         <a href="index.html" class="nav-link" id="home-link">Accueil</a>
         <a href="services.html" class="nav-link" id="services-link">Nos Services</a>
         <a href="offres.html" class="nav-link" id="offres-link">Nos Offres</a>
-        <a href="realisations.html" class="nav-link" id="realisations-link">Nos Réalisations</a>
+        <a href="realisations.html" class="nav-link active" id="realisations-link">Nos Réalisations</a>
         <a href="contact.html" class="nav-link" id="contact-link">Contact</a>
         <div class="nav-actions">
           <a href="contact.html?type=devis" class="btn btn-primary btn-sm" id="nav-cta-btn">Demander un devis</a>
@@ -61,53 +63,111 @@
   <!-- Page Banner -->
   <section class="page-banner">
     <div class="container">
-      <h1 class="page-banner-title">Mentions Légales</h1>
+      <h1 class="page-banner-title">Nos Réalisations</h1>
       <div class="breadcrumbs">
         <a href="index.html">Accueil</a>
         <i class="ri-arrow-right-s-line"></i>
-        <span>Mentions Légales</span>
+        <span>Réalisations</span>
       </div>
     </div>
   </section>
 
-  <!-- Legal Content Section -->
-  <section class="section">
-    <div class="container" style="max-width: 800px;">
-      <div class="card reveal" style="padding: 40px; margin-bottom: 30px;">
-        <h2 class="card-title" style="font-size: 1.6rem; border-bottom: 2px solid var(--color-border); padding-bottom: 12px; margin-bottom: 20px;">
-          1. Édition du site
-        </h2>
-        <p class="card-text" style="margin-bottom: 24px;">
-          En vertu de l'article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, il est précisé aux utilisateurs du site internet <strong>gestion-plus.sarl.cloud</strong> l'identité des différents intervenants dans le cadre de sa réalisation et de son suivi :<br><br>
-          <strong>Propriétaire du site :</strong> Gestion Plus<br>
-          <strong>Contact :</strong> gestion.plus.2014@gmail.com — Tél : +212 770 32 72 90<br>
-          <strong>Zone d'activité :</strong> Maroc & France
-        </p>
+  <!-- Portfolio Filter & Grid Section -->
+  <section class="section" id="portfolio-showcase">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Notre Portfolio</span>
+        <h2 class="section-title">Études de cas & Projets récents</h2>
+        <p class="section-desc">Filtrez nos projets par catégorie pour découvrir des cas concrets d'accompagnement de nos clients.</p>
+      </div>
 
-        <h2 class="card-title" style="font-size: 1.6rem; border-bottom: 2px solid var(--color-border); padding-bottom: 12px; margin-bottom: 20px;">
-          2. Hébergement
-        </h2>
-        <p class="card-text" style="margin-bottom: 24px;">
-          Le site est hébergé par :<br><br>
-          <strong>Hébergeur :</strong> GitHub Inc.<br>
-          <strong>Adresse :</strong> 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA<br>
-          <strong>Site web :</strong> <a href="https://pages.github.com" target="_blank" rel="noopener">https://pages.github.com</a>
-        </p>
+      <!-- Filters -->
+      <div class="portfolio-filters reveal">
+        <button class="filter-btn active" data-filter="all">Tout voir</button>
+        <button class="filter-btn" data-filter="design">Design Graphique 🎨</button>
+        <button class="filter-btn" data-filter="web">Développement Web 💻</button>
+        <button class="filter-btn" data-filter="odoo">Solutions Odoo ERP ⚙️</button>
+      </div>
 
-        <h2 class="card-title" style="font-size: 1.6rem; border-bottom: 2px solid var(--color-border); padding-bottom: 12px; margin-bottom: 20px;">
-          3. Propriété intellectuelle et contrefaçons
-        </h2>
-        <p class="card-text" style="margin-bottom: 24px;">
-          Gestion Plus est propriétaire des droits de propriété intellectuelle ou détient les droits d'usage sur tous les éléments accessibles sur le site internet, notamment les textes, images, graphismes, logos, vidéos, architecture, icônes et sons.<br><br>
-          Toute reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite, sauf autorisation écrite préalable de Gestion Plus.
-        </p>
+      <!-- Grid -->
+      <div class="portfolio-grid">
+        <!-- Item 1: Design - Kemia -->
+        <div class="portfolio-item reveal" data-category="design">
+          <img src="assets/images/portfolio-1.png" alt="Branding Kemia Food" class="portfolio-img">
+          <div class="portfolio-overlay">
+            <span class="portfolio-category">Design Graphique</span>
+            <h3 class="portfolio-title">Kemia Food</h3>
+            <p class="portfolio-desc">Création de la charte graphique complète, logo et packagings pour une marque traiteur.</p>
+          </div>
+        </div>
 
-        <h2 class="card-title" style="font-size: 1.6rem; border-bottom: 2px solid var(--color-border); padding-bottom: 12px; margin-bottom: 20px;">
-          4. Limitation de responsabilité
-        </h2>
-        <p class="card-text">
-          Gestion Plus ne pourra être tenu pour responsable des dommages directs et indirects causés au matériel de l'utilisateur lors de l'accès au site, et décline toute responsabilité quant à l'utilisation et à l'interprétation de l'information contenue sur ses pages.
-        </p>
+        <!-- Item 2: Web - BioNature -->
+        <div class="portfolio-item reveal" data-category="web" style="transition-delay: 0.1s;">
+          <img src="assets/images/portfolio-2.png" alt="E-commerce BioNature" class="portfolio-img">
+          <div class="portfolio-overlay">
+            <span class="portfolio-category">Développement Web</span>
+            <h3 class="portfolio-title">BioNature</h3>
+            <p class="portfolio-desc">Développement d'un site e-commerce bio rapide et responsive avec passerelle de paiement.</p>
+          </div>
+        </div>
+
+        <!-- Item 3: Odoo - Logistique -->
+        <div class="portfolio-item reveal" data-category="odoo" style="transition-delay: 0.2s;">
+          <img src="assets/images/portfolio-3.png" alt="Odoo ERP Logistics" class="portfolio-img">
+          <div class="portfolio-overlay">
+            <span class="portfolio-category">Solutions Odoo ERP</span>
+            <h3 class="portfolio-title">Logistique & Stocks</h3>
+            <p class="portfolio-desc">Intégration d'Odoo Gestion des Stocks, Achats et Ventes pour une PME de distribution.</p>
+          </div>
+        </div>
+
+        <!-- Item 4: Design - Apex BTP -->
+        <div class="portfolio-item reveal" data-category="design" style="transition-delay: 0.3s;">
+          <img src="assets/images/portfolio-4.png" alt="Logo Apex BTP" class="portfolio-img">
+          <div class="portfolio-overlay">
+            <span class="portfolio-category">Design Graphique</span>
+            <h3 class="portfolio-title">Apex BTP</h3>
+            <p class="portfolio-desc">Branding et logo moderne pour une grande entreprise de construction et génie civil.</p>
+          </div>
+        </div>
+
+        <!-- Item 5: Web - Valoris -->
+        <div class="portfolio-item reveal" data-category="web" style="transition-delay: 0.4s;">
+          <img src="assets/images/portfolio-5.png" alt="Site Cabinet Valoris" class="portfolio-img">
+          <div class="portfolio-overlay">
+            <span class="portfolio-category">Développement Web</span>
+            <h3 class="portfolio-title">Cabinet Valoris</h3>
+            <p class="portfolio-desc">Création du site internet vitrine pour un cabinet de conseil financier et stratégie.</p>
+          </div>
+        </div>
+
+        <!-- Item 6: Odoo - HR InnovTech -->
+        <div class="portfolio-item reveal" data-category="odoo" style="transition-delay: 0.5s;">
+          <img src="assets/images/portfolio-6.png" alt="Odoo HR Dashboard" class="portfolio-img">
+          <div class="portfolio-overlay">
+            <span class="portfolio-category">Solutions Odoo ERP</span>
+            <h3 class="portfolio-title">Odoo RH & Projets</h3>
+            <p class="portfolio-desc">Configuration des modules Odoo Employés, Feuilles de temps et Recrutement pour une startup IT.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="section section-alt">
+    <div class="container reveal">
+      <div class="cta-banner" style="background: var(--gradient-brand);">
+        <h2 class="cta-banner-title" style="color: var(--color-text-on-brand);">📈 Vous avez un projet similaire ?</h2>
+        <p class="cta-banner-text" style="color: rgba(255, 255, 255, 0.9);">Confiez-nous la transformation de vos processus ou la création de vos designs d'entreprise.</p>
+        <div class="cta-banner-buttons">
+          <a href="contact.html?type=devis" class="btn btn-secondary btn-lg" id="cta-devis-btn" style="background: #fff; color: var(--color-blue); border: none;">
+            <i class="ri-file-text-line"></i> Demander un devis
+          </a>
+          <a href="contact.html" class="btn btn-primary btn-lg" id="cta-contact-btn" style="background: rgba(10, 15, 29, 0.9); color: #fff; border: 1px solid rgba(255,255,255,0.1);">
+            <i class="ri-mail-send-line"></i> Contactez-nous
+          </a>
+        </div>
       </div>
     </div>
   </section>
@@ -258,5 +318,6 @@
   <!-- Scripts -->
   <script src="assets/js/main.js"></script>
   <script src="assets/js/ai-assistant.js"></script>
+  <script src="assets/js/portfolio.js"></script>
 </body>
 </html>
